@@ -2,5 +2,11 @@
     "mainfest_version": 2,
     "name": "Profile Launcher",
     "version": "1.0",
-    "description": "Launch Your Social Media Profiles With Just One Click "
+    "description": "Launch Your Social Media Profiles With Just One Click",
+    "icons": { "128": "icon_128.png" },
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"]
 }
